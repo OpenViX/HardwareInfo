@@ -40,7 +40,7 @@ int fileExist(const char* filename){
 char* ReadProcEntry(char *filename)
 {
 	FILE *proc_file = fopen(filename,"r");
-	char proc_contents[20];
+	char proc_contents[999];
 	char *real_proc_contents = NULL;
 	char c;
 	int i = 0;
