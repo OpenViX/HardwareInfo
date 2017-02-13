@@ -35,7 +35,6 @@ AC_SUBST(DEBUG_CFLAGS)
 AC_CONFIG_FILES([
 Makefile
 HardwareInfo/Makefile
-HardwareInfo/lib/Makefile
 
 ])
 AC_OUTPUT
